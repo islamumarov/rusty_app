@@ -1,9 +1,8 @@
-fn main(){
-    let mut array = [5,3,75,2,15,76,1,4];
+fn main() {
+    let mut array = [5, 3, 75, 2, 15, 76, 1, 4];
     quick_sort(&mut array);
     println!("{:?}", array);
 }
-
 
 // quick sort
 
